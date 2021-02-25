@@ -1,5 +1,5 @@
-This directory contains project hooks for the Reaction development environment.
-They are invoked from the [reaction-platform][reaction-platform] build tools
+This directory contains project hooks for the Mailchimp Open Commerce development environment.
+They are invoked from the [MOC-platform][moc-platform] build tools
 which operate across all projects to aid with orchestration in the local
 development environment.
 
@@ -41,4 +41,4 @@ a task.
 It is better to create a script in your project and call it from the hook. This
 keeps the scripted action reusable and available outside of the hook context.
 
-[reaction-platform]: https://github.com/reactioncommerce.com/reaction-platform
+[moc-platform]: https://github.com/mailchimp-open-cmmerce/platform

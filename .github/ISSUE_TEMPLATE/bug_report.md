@@ -21,8 +21,8 @@ A clear and concise description of what you expected to happen.
 
 **Version**
  - OS: [e.g. OS X]
- - Version of Reaction [e.g. 2.0.0]
- - Version of Hydra
+ - Version of Open Commerce [e.g. 2.0.0]
+ - Version of Authentication
 
 **Additional context**
 Add any other context about the problem here.

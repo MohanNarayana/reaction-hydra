@@ -1,27 +1,25 @@
-Reaction Commerce uses the [ORY Hydra][hydra] OAuth 2.0 & OpenID Connect
+Mailchimp Open Commerce's Authentication uses the [ORY Hydra][hydra] OAuth 2.0 & OpenID Connect
 server, for authentication.
 
-This project provides a configured Hydra installation using Docker Compose.
-Ready for Reaction development.
+This project provides a configured Authentication installation using Docker Compose.
+Ready for Open Commerce development.
 
-### Part of the Reaction Platform
+### Part of the Mailchimp Open Commerce Platform
 
-This application is a part of the Reaction Platform and is designed to work
-with other services. You can launch Reaction and its dependencies with a
-single command by using the [Reaction Platform][reaction-platform] development
+This application is a part of the MOC Platform and is designed to work
+with other services. You can launch MOC and its dependencies with a
+single command by using the [MOC Platform][moc-platform] development
 installation.
 
-#### [See the Reaction Platform README to get started quickly.][reaction-platform]
-
-[reaction-platform]: https://github.com/reactioncommerce/reaction-platform
+#### [See the MOC Platform README to get started quickly.][moc-platform]
 
 ## Project Status
 
-This project is supported by Reaction Commerce for local Reaction development.
-It is not intended to serve as a template for running Hydra in production.
+This project is supported by Mailchimp Open Commerce for local MOC development.
+It is not intended to serve as a template for running Authentication in production.
 
 * :white_check_mark: Suitable for local development
-* :warning: Contains specific configuration for the Reaction Platform.
+* :warning: Contains specific configuration for the MOC Platform.
 * :boom: Not safe for production.
 
 ## Services
@@ -30,17 +28,17 @@ These services will be available when the project is started:
 
 | Service                                                           | Description                                                                                                         |
 | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| **[Hydra Public API][hydra-public-api]**<br>http://localhost:4444 | Hydra's public API. It can be exposed to the public internet.                                                       |
-| **[Hydra Admin API][hydra-admin-api]**<br>http://localhost:4445   | Hydra's administration API. This is unprotected and should not be exposed to the internet without a secure gateway. |
-| **[Hydra Token API][hydra-public-api]**<br>http://localhost:5555  | Service for the Hydra token user.                                                                                   |
+| **[Authentication Public API][authentication-public-api]**<br>http://localhost:4444 | Authentication's public API. It can be exposed to the public internet.                                                       |
+| **[Authentication Admin API][authentication-admin-api]**<br>http://localhost:4445   | Authentication's administration API. This is unprotected and should not be exposed to the internet without a secure gateway. |
+| **[Authentication Token API][authentication-public-api]**<br>http://localhost:5555  | Service for the Authentication token user.                                                                                   |
 
-[hydra-public-api]: http://localhost:4444
-[hydra-admin-api]: http://localhost:4445
-[hydra-token-api]: http://localhost:5555
+[authentication-public-api]: http://localhost:4444
+[authentication-admin-api]: http://localhost:4445
+[authentication-token-api]: http://localhost:5555
 
 ## License
 
-Copyright © Reaction Commerce
+Copyright © Mailchimp Open Commerce
 
 [ory/hydra][hydra] is licensed under
 [Apache License 2.0](https://github.com/ory/hydra/blob/master/LICENSE)

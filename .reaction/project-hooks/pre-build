@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Pre Build Hook
-# Invoked by the reaction-next project bootstrapping process.
+# Invoked by the moc-next project bootstrapping process.
 #
 # Invoked before Docker build.
 # Perform any actions here that are required before docker-compose build. For
